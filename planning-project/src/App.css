@@ -1,0 +1,27 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.backup-wrapper{
+    display: flex;
+    font-size: x-large;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 600;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height:100vh;
+}
+.refresh-button{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: burlywood;
+    color: brown;
+    padding: 10px;
+    margin: 10px;
+    border-radius: 10px;
+}
+.refresh-button:hover{
+    background-color: rgb(176, 133, 133);
+}
